@@ -59,8 +59,12 @@ class GamaParkTheme {
   );
 
   static ThemeData light() {
+    const Color colorPrimary = Color(0xff283559);
+    const Color colorAccent = Color(0xffE98A49);
     return ThemeData(
         brightness: Brightness.light,
+        primaryColor: colorPrimary,
+        buttonTheme: const ButtonThemeData(buttonColor: colorAccent),
         checkboxTheme: CheckboxThemeData(
             checkColor:
                 MaterialStateColor.resolveWith((states) => Colors.black)),
