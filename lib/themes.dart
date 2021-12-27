@@ -28,6 +28,11 @@ class GamaParkTheme {
       fontWeight: FontWeight.w600,
       color: Colors.black,
     ),
+    headline4: GoogleFonts.montserratAlternates(
+      fontSize: 14.0,
+      fontWeight: FontWeight.w400,
+      color: Colors.black,
+    ),
   );
 
   static TextTheme darkTextTheme = TextTheme(

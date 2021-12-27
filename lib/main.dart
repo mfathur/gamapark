@@ -13,6 +13,7 @@ class GamaParkApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final ThemeData theme = GamaParkTheme.light();
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Gama Park',
       theme: theme,
       home: const LoginPage(),
